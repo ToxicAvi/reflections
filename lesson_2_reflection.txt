@@ -15,20 +15,41 @@ since it only represents then files that are going to be commited.
 It offers us a way of controling our commits even more in detail
 to make them as logical as possible.
 
-How can you use the staging area to make sure you have one commit
+Q:How can you use the staging area to make sure you have one commit
 per logical
 change?
 
-What are some situations when branches would be helpful in keeping your
- history
-organized? How would branches help?
+A:We can add only the files that were edited to deal with one specific
+thing that represents a logical change and only commit them together.
 
-How do the diagrams help you visualize the branch structure?
+Q:What are some situations when branches would be helpful in
+keeping your history organized? How would branches help?
 
-What is the result of merging two branches together?
+A:It helps by organizing my work in a way that if i make a change
+i don't necesarly want in my code later, or if i want to work on
+different features at the same time without having to deal with 
+all the bugs i can do that by creating different branches for different
+features and know more precisely what i'm working on and when.
+
+Q:How do the diagrams help you visualize the branch structure?
+
+A:The diagrams help me vizualize the branch structure by showing me
+from which commits branches start and which commits are commited in
+each branch.
+
+Q:What is the result of merging two branches together?
 Why do we represent it in
 the diagram the way we do?
 
-What are the pros and cons of Git's automatic merging vs.
+A:the result is making the branch we merge into the parent of the last
+commit of the bramch we merge, which is why it is visualized by a branch 
+going towards the merging branch. 
+
+Q:What are the pros and cons of Git's automatic merging vs.
 always doing merges
 manually?
+
+A:Git's automatic merging can save us time when we want to add our 
+work to the master branch or update our brach with the up to date
+master branch for example, by adding and updating the cnages we met
+when possible.
